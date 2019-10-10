@@ -50,5 +50,6 @@ public class BracketsProduce {
 		{
 			System.out.println(ans.get(i));
 		}
+		in.close();
 	}
 }
