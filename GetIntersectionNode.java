@@ -80,6 +80,8 @@ public class GetIntersectionNode {
         	{
         		return headA;
         	}
+        	headA = headA.next;
+        	headB = headB.next;
         }
         return headA;
     }

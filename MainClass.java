@@ -60,7 +60,7 @@ public class MainClass {
             line = in.readLine();
             int skipB = Integer.parseInt(line);
             
-            ListNode ret = new Solution().getIntersectionNode(intersectVal, listA, listB, skipA, skipB);
+            ListNode ret = new GetIntersectionNode().getIntersectionNode(intersectVal, listA, listB, skipA, skipB);
             
             String out = listNodeToString(ret);
             
