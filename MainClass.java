@@ -50,9 +50,17 @@ public class MainClass {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         String line;
         while ((line = in.readLine()) != null) {
-            ListNode head = stringToListNode(line);
+            int intersectVal = Integer.parseInt(line);
+            line = in.readLine();
+            ListNode listA = stringToListNode(line);
+            line = in.readLine();
+            ListNode listB = stringToListNode(line);
+            line = in.readLine();
+            int skipA = Integer.parseInt(line);
+            line = in.readLine();
+            int skipB = Integer.parseInt(line);
             
-            ListNode ret = new DeleteDuplicates().deleteDuplicates(head);
+            ListNode ret = new Solution().getIntersectionNode(intersectVal, listA, listB, skipA, skipB);
             
             String out = listNodeToString(ret);
             
@@ -60,4 +68,3 @@ public class MainClass {
         }
     }
 }
-
