@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+        di:给属性赋值
+        1. set注入（设置注入）：spring调用类的set方法
+         1）.
+         <bean id="xx" class="yyy">
+            <property name="属性名字" value="此属性的值" />
+            一个property只能给一个属性赋值
+            <property ...>
+         </bean>
+    -->
+    <bean id="myStudent" class="com.baowj.test02.Student" >
+        <property name="name" value="李四"/>
+        <property name="age" value="12"/>
+    </bean>
+</beans>

@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ch01_hello_spring" />
+        <module name="ch02_dl_xml" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ch01_hello_spring" target="1.5" />
+      <module name="ch02_dl_xml" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
