@@ -1,11 +1,16 @@
 package com.baowj.test02;
 
 public class Student {
+    private School school;
     private String name;
     private int age;
 
     public String getName() {
         return name;
+    }
+
+    public void setSchool(School school) {
+        this.school = school;
     }
 
     public int getAge() {
@@ -21,13 +26,11 @@ public class Student {
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         return "Student{" +
-                "name='" +
-                this.name +
-                "\'" +
-                ",age=" +
-                this.age +
-                "}";
+                "school=" + school +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                '}';
     }
 }
