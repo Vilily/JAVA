@@ -1,5 +1,6 @@
 package com.baowj;
 
+import com.baowj.test02.School;
 import com.baowj.test02.Student;
 import com.baowj.test02.Teacher;
 import org.junit.Test;
@@ -43,5 +44,14 @@ public class MyTest {
         ApplicationContext ac = new ClassPathXmlApplicationContext(config);
         Teacher myTeacher = (Teacher) ac.getBean("myTeacher1");
         System.out.println(myTeacher);
+    }
+
+    @Test
+    public void test05() {
+        System.out.println("====test05====");
+        String config = "applicationContext.xml";
+        ApplicationContext ac = new ClassPathXmlApplicationContext(config);
+        Student myStudent = (Student) ac.getBean("myStudent1");
+        System.out.println(myStudent);
     }
 }

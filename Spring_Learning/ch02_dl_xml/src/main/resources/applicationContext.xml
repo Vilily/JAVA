@@ -51,4 +51,24 @@
         <constructor-arg index="2" ref="mySchool"/>
     </bean>
 
+    <!--  自动注(引用类型)
+        1.byName
+            <bean id="xx" class="yyy" autowire="byName">
+            xx
+            </bean>
+        2. byType
+
+    -->
+    <bean id="myStudent1" class="com.baowj.test02.Student" autowire="byName">
+        <property name="name" value="李华"/>
+        <property name="age" value="25"/>
+    </bean>
+
+    <bean id="school" class="com.baowj.test02.School">
+        <property name="name" value="haohao"/>
+        <property name="address" value="90"/>
+    </bean>
+
+
+
 </beans>
