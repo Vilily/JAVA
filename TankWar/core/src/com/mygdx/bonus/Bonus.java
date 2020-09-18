@@ -8,7 +8,6 @@ import com.mygdx.game.AbstractGameObject;
 import com.mygdx.game.Constants;
 import com.mygdx.tank.HeroTank;
 
-import java.util.ArrayList;
 
 /**
  * 这是打败特殊坦克之后随机出现在屏幕上的额外奖励，奖励类型随机，奖励出现的位置也是随机的
