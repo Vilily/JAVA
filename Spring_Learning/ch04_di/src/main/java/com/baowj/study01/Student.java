@@ -1,6 +1,5 @@
-package com.baowj.study02;
+package com.baowj.study01;
 
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 /**
@@ -15,10 +14,7 @@ import org.springframework.stereotype.Component;
 @Component(value = "myStudent")
 public class Student {
 
-    @Value("李四")
     private String name;
-
-    @Value("29")
     private Integer age;
 
     public void setName(String name) {

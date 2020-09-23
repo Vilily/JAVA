@@ -1,5 +1,6 @@
-package com.baowj.study02;
+package com.baowj.study03;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
@@ -17,9 +18,10 @@ public class Student {
 
     @Value("李四")
     private String name;
-
-    @Value("29")
     private Integer age;
+
+    @Autowired
+    private School mySchool;
 
     public void setName(String name) {
         this.name = name;
@@ -34,6 +36,7 @@ public class Student {
         return "Student{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
+                ", mySchool=" + mySchool +
                 '}';
     }
 }

@@ -1,15 +1,13 @@
-package com.baowj.study02;
+package com.baowj.study06;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.Resource;
+
 /**
- * @Component: 创建对象的，等于<bean>的功能
- *  属性：value 对象名称，也就是bean的id值
- *       value值是唯一的，在整个spring容器只有一个
- *  位置：在类的上面
- *      @Component(value = "myStudent") 等同于
- *      <bean id="myStudent" calss="com.baowj.study01.Student" />
+ * @Resource
+ * 来自jdk的注解，可以给引用类型赋值
  */
 
 @Component(value = "myStudent")
@@ -17,9 +15,10 @@ public class Student {
 
     @Value("李四")
     private String name;
-
-    @Value("29")
     private Integer age;
+
+    @Resource(name = "mySchool")
+    private School mySchool;
 
     public void setName(String name) {
         this.name = name;
@@ -34,6 +33,7 @@ public class Student {
         return "Student{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
+                ", mySchool=" + mySchool +
                 '}';
     }
 }
