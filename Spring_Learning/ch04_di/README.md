@@ -57,6 +57,24 @@ public class Student {
 
 
 
+#### @Repository
+
+**功能**：创建*dao*对象，用来访问数据库
+
+
+
+#### @Service
+
+**功能**：创建*Service*对象，处理业务逻辑
+
+
+
+#### @Controller
+
+**功能**：创建*控制器*对象，接受请求，显示处理结果
+
+
+
 #### @Value
 
 **使用方式**：

@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/ch02_dl_xml/ch02_dl_xml.iml" filepath="$PROJECT_DIR$/ch02_dl_xml/ch02_dl_xml.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch03/ch03.iml" filepath="$PROJECT_DIR$/ch03/ch03.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch04_di/ch04_di.iml" filepath="$PROJECT_DIR$/ch04_di/ch04_di.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch05_aop_leandin/ch05_aop_leandin.iml" filepath="$PROJECT_DIR$/ch05_aop_leandin/ch05_aop_leandin.iml" />
     </modules>
   </component>
 </project>
