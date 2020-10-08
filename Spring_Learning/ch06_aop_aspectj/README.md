@@ -112,3 +112,149 @@ public void myBefore(){
     // 功能
 ~~~
 
+
+
+#### @AfterReturning
+
+**功能**：
+
+* 后置通知，在目标方法之后执行；
+* 能够获得返回值；
+* 可以修改返回值；
+
+**属性**：
+
+* **value**：切入点表达式，表示切面的功能执行位置；
+* **returning**：自定义变量（变量名必须和通知方法形参名一样），表示目标方法的返回值；
+
+**位置**：方法上面。
+
+~~~java
+@AfterReturning(value = "execution(* *..SomeServiceImpl.doOther(..))", returning = "res")
+public void myAfterReturning(Object res){
+~~~
+
+
+
+#### @Around
+
+**功能**：
+
+* 可以在目标方法前后增强功能；
+* 控制目标方法能否被调用执行；
+* 修改原来的目标方法的执行结果；
+* 等同于**JDK动态代理**。
+
+**属性**：
+
+* **value**：切入点表达式；
+
+**参数**：
+
+* **PeoceedingJoinPoint**：等同于Method
+
+**位置**：方法上面。
+
+~~~java
+@Around(value = "execution(* *..SomeServiceImpl.doFirst(..))")
+public Object myAround(ProceedingJoinPoint pjp) throws Throwable {
+    Object result = null;
+    System.out.println("环绕通知：在目标方法之前，时间" + new Date());
+    //1. 目标方法调用
+    // 获取第一个参数值
+    String name = "";
+    Object args[] = pjp.getArgs();
+    if(args!= null && args.length >= 1){
+        Object arg = args[0];
+        name = (String)arg;
+    }
+    if("李四".equals(name)){
+        // 如果符合条件，调用目标方法
+        result = pjp.proceed();
+    }
+    result = pjp.proceed(); //等同于method.invoke()
+    System.out.println("环绕通知：在目标方法之后，提交事物");
+    //2. 在目标方法前后加功能
+
+    // 修改目标方法的执行结果
+    if(result != null){
+        result = "Hello AspectJ AOP";
+    }
+    //返回目标方法的执行结果
+    return result;
+}
+~~~
+
+
+
+#### @AfterThrowing
+
+**功能**：
+
+* 在目标方法出现异常时执行；
+* 可以做异常的监控程序；
+
+**属性**：
+
+* **value**：切入点表达式；
+* **throwing**：自定义的变量，表示目标方法抛出的异常对象，变量名必须和方法的参数名一样；
+
+~~~java
+@AfterThrowing(value = "execution(* *..SomeServiceImpl.doSecond(..))", throwing = "ex")
+public void myAfterThrowing(Exception ex){
+System.out.println("异常通知，执行");
+}
+~~~
+
+
+
+#### @After
+
+**功能**：
+
+* 总是在目标方法之后执行；
+* 一般做资源清除；
+
+**属性**：
+
+* **value**：切入点表达式；
+
+~~~java
+@After(value = "execution(* *..SomeServiceImpl.doThird(..))")
+public void myAfter(){
+System.out.println("最终通知");
+}
+~~~
+
+
+
+#### @Pointcut
+
+**功能**：
+
+* 定义和管理切入点（重复切入点）；
+
+**属性**：
+
+* **value**：切入点表达式；
+
+**位置**：
+
+* 在自定义的方法上面；
+
+~~~java
+@After(value = "mypt()")
+public void myAfter(){
+System.out.println("最终通知");
+}
+
+@Before(value = "mypt()")
+public void myBefore(){
+System.out.println("前置通知");
+}
+@Pointcut(value = "execution(* *..SomeServiceImpl.doThird(..))")
+public void mypt(){
+//无需代码
+}
+~~~
+

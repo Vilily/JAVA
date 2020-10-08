@@ -11,10 +11,10 @@
             base-package: 指定注解在项目中的包名
     -->
     <!-- 声明目标对象 -->
-    <bean id="someService" class="com.baowj.study02.SomeServiceImpl"/>
+    <bean id="someService" class="com.baowj.study06.SomeServiceImpl"/>
 
     <!-- 声明切面对象 -->
-    <bean id="myAspect" class="com.baowj.study02.MyAspect"/>
+    <bean id="myAspect" class="com.baowj.study06.MyAspect"/>
 
     <!-- 声明自动代理生成器 -->
     <aop:aspectj-autoproxy />
