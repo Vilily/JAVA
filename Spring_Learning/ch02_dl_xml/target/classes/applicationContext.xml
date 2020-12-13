@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+        di:给属性赋值
+        1. set注入（设置注入）：spring调用类的set方法
+         1）.
+         <bean id="xx" class="yyy">
+            <property name="属性名字" value="此属性的值" />
+            一个property只能给一个属性赋值
+            <property ...>
+         </bean>
+         2) 引用类型的set注入
+         <bean id="xxx" class="yyy">
+            <property name="kkk" ref="bean的id(对象名称)" />
+         </bean>
+
+         2. 构造注入，调用构造函数给参数赋值
+             <constructor-arg>标签
+             <constructor-arg>标签：一个表示构造方法一个参数
+             name:表示构造方法的形参名
+             index: 表示构造参数的位置，从左到右0-1-2
+             value: 构造方法的形参类型
+             ref: 构造方法的形参是引用类型
+    -->
+
+    <bean id="myStudent" class="com.baowj.test02.Student" >
+        <property name="name" value="李四"/>
+        <property name="age" value="12"/>
+        <property name="school" ref="mySchool"/>
+    </bean>
+
+    <bean id="mySchool" class="com.baowj.test02.School">
+        <property name="name" value="华中科技大学"/>
+        <property name="address" value="武汉"/>
+    </bean>
+
+    <!-- 使用name属性实现构造注入 -->
+    <bean id="myTeacher" class="com.baowj.test02.Teacher">
+        <constructor-arg name="myname" value="张三"/>
+        <constructor-arg name="myage" value="20"/>
+        <constructor-arg name="mySchool" ref="mySchool"/>
+    </bean>
+
+    <!-- 使用index实现构造注入 -->
+    <bean id="myTeacher1" class="com.baowj.test02.Teacher">
+        <constructor-arg index="0" value="李四"/>
+        <constructor-arg index="1" value="12"/>
+        <constructor-arg index="2" ref="mySchool"/>
+    </bean>
+
+    <!--  自动注(引用类型)
+        1.byName
+            <bean id="xx" class="yyy" autowire="byName">
+            xx
+            </bean>
+        2. byType
+
+    -->
+    <bean id="myStudent1" class="com.baowj.test02.Student" autowire="byName">
+        <property name="name" value="李华"/>
+        <property name="age" value="25"/>
+    </bean>
+
+    <bean id="school" class="com.baowj.test02.School">
+        <property name="name" value="haohao"/>
+        <property name="address" value="90"/>
+    </bean>
+
+
+
+</beans>
