@@ -8,4 +8,8 @@ import java.util.List;
 public interface StudentDao {
 
     public List<Student> selectStudents();
+
+    // 插入方法
+    public int insertStudent(Student student);
+
 }

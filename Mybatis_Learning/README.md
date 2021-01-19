@@ -4,5 +4,6 @@
 
 [官方文档](https://mybatis.org/mybatis-3/zh/getting-started.html)
 
-* [Mybatis 新建项目](ch01-hello-mybatis):baby:
-* 
+* [MyBatis 新建项目](ch01-hello-mybatis):baby:
+* [MyBatis dao接口使用](ch02-mybatis-dao):yum:
+* [MyBatis 动态代理](ch03-proxy-dao):man:

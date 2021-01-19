@@ -137,6 +137,16 @@ public interface StudentDao {
 
 * **mapper**：**Sql映射文件位置**；
 
+* **输出日志**：
+
+    ~~~xml
+    <settings>
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+    </settings>
+    ~~~
+
+    
+
 
 
 ### 6. 测试
