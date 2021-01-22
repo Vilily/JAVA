@@ -8,7 +8,7 @@
   <artifactId>ch04-param</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>ch02-mybatis-dao</name>
+  <name>ch04-param</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
