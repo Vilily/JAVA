@@ -1,11 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="95b72c0d-089b-450a-8a69-d28b6170658a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReverseBetween.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReverseBetween.java" afterDir="false" />
+    <list default="true" id="95b72c0d-089b-450a-8a69-d28b6170658a" name="Default Changelist" comment="2021/11/13">
+      <change afterPath="$PROJECT_DIR$/../Java_Learning/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Learning/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Learning/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Learning/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Learning/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Learning/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Learning/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Learning/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Learning/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Learning/src/main/java/com.baowj.thread/ProducerConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Learning/src/main/java/com.baowj.thread/ThreadByExtends.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Learning/src/main/java/com.baowj.thread/ThreadByRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Learning/src/main/java/com.baowj.thread/ThreadCallable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Learning/src/main/java/com.baowj.thread/ThreadCmmunication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Learning/src/main/java/com.baowj.thread/ThreadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Learning/src/main/java/com.baowj.thread/ThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Learning/src/main/java/com.baowj.thread/ThreadSync.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Learning/src/main/java/com.baowj.thread/ThreadSyncMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Learning/src/main/java/com/baowj/commonclass/JDK8Time.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Learning/src/main/java/com/baowj/commonclass/JavaString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Learning/src/main/java/com/baowj/commonclass/JavaStringBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/leetcode/520. 检测大写字母.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/leetcode/剑指 Offer 56 - I. 数组中数字出现的次数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven_Learning/MyProject/ch01-maven.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis_Learning/ch01-hello-mybatis/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot_Learning/spring-boot-01-helloworld/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leet_Code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Leet_Code.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ClassA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ClassB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/FullSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HasCycle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/InterfaceA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/MaxDepth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/RotateList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/RotatePicture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BracketsProduce.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeleteDuplicates.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EffectiveSudoku.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EvalRPN.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FullSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenerateTrees.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GetIntersectionNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HasCycle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IsSameTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IsSymmetric.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LongestPublicSubString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LongestUpSubSequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MaxDepth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MidTravelTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NextPermutation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PhoneNumAlpha.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RemoveElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReverseBetween.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RotateList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RotatePicture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringMultiply.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThreeNumberSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TreeNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoNumDivide.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maven_Learning/MyProject/target/surefire-reports/TEST-com.example.TestHello.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Maven_Learning/MyProject/target/surefire-reports/TEST-com.example.TestHello.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maven_Learning/MyProject/target/surefire-reports/com.example.TestHello.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Maven_Learning/MyProject/target/surefire-reports/com.example.TestHello.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mybatis_Learning/ch01-hello-mybatis/ch01-hello-mybatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis_Learning/ch01-hello-mybatis/ch01-hello-mybatis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Learning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Learning/.idea/workspace.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,26 +95,38 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectId" id="1U8Gg5qQH1kytg49AwDQhBkF2ul" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\JAVA\Leet_Code\src\main\com\leetcode" />
+      <recent name="E:\JAVA\Leet_Code\src\main\leetcode" />
+    </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -44,20 +137,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574730917109</updated>
+      <workItem from="1634209840693" duration="1203000" />
+      <workItem from="1634211923511" duration="93000" />
+      <workItem from="1636769635554" duration="1648000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2021/11/13" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021/11/13" />
   </component>
 </project>

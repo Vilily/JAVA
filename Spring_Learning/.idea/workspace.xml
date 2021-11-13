@@ -9,168 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e07e980c-ea80-42fa-97c2-2b05ba4a09ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Servlet_Learning/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Servlet_Learning/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Servlet_Learning/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Servlet_Learning/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Servlet_Learning/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Servlet_Learning/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Servlet_Learning/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ch10_spring_web_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ch10_spring_web_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/apache_tomcat_8_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch07_spring_mybatis/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch08-spring-trans/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch08-spring-trans/ch08-spring-trans.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch08-spring-trans/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch08-spring-trans/src/main/java/com/baowj/dao/GoodsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch08-spring-trans/src/main/java/com/baowj/dao/GoodsDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch08-spring-trans/src/main/java/com/baowj/dao/SaleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch08-spring-trans/src/main/java/com/baowj/dao/SaleDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch08-spring-trans/src/main/java/com/baowj/domain/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch08-spring-trans/src/main/java/com/baowj/domain/Sale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch08-spring-trans/src/main/java/com/baowj/excep/NotEnoughException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch08-spring-trans/src/main/java/com/baowj/service/BuyGoodsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch08-spring-trans/src/main/java/com/baowj/service/impl/BuyGoodsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch08-spring-trans/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch08-spring-trans/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch08-spring-trans/src/main/resources/mybatis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch08-spring-trans/src/test/java/com/baowj/MyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch09-aspectj-trans/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch09-aspectj-trans/ch09-aspectj-trans.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch09-aspectj-trans/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch09-aspectj-trans/src/main/java/com/baowj/dao/GoodsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch09-aspectj-trans/src/main/java/com/baowj/dao/GoodsDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch09-aspectj-trans/src/main/java/com/baowj/dao/SaleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch09-aspectj-trans/src/main/java/com/baowj/dao/SaleDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch09-aspectj-trans/src/main/java/com/baowj/domain/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch09-aspectj-trans/src/main/java/com/baowj/domain/Sale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch09-aspectj-trans/src/main/java/com/baowj/excep/NotEnoughException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch09-aspectj-trans/src/main/java/com/baowj/service/BuyGoodsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch09-aspectj-trans/src/main/java/com/baowj/service/impl/BuyGoodsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch09-aspectj-trans/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch09-aspectj-trans/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch09-aspectj-trans/src/main/resources/mybatis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch09-aspectj-trans/src/test/java/com/baowj/MyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch10-spring-web/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch10-spring-web/ch10-spring-web.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch10-spring-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch10-spring-web/src/main/java/com/baowj/controller/RegisterServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch10-spring-web/src/main/java/com/baowj/dao/StudentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch10-spring-web/src/main/java/com/baowj/dao/StudentDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch10-spring-web/src/main/java/com/baowj/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch10-spring-web/src/main/java/com/baowj/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch10-spring-web/src/main/java/com/baowj/service/impl/StudentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch10-spring-web/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch10-spring-web/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch10-spring-web/src/main/resources/mybatis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch10-spring-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch10-spring-web/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch10-spring-web/src/main/webapp/result.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch10-spring-web/src/test/java/com/baowj/MyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_16.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="e07e980c-ea80-42fa-97c2-2b05ba4a09ae" name="Default Changelist" comment="finish spring 🧐">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02_dl_xml/ch02_dl_xml.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ch02_dl_xml/ch02_dl_xml.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02_dl_xml/target/classes/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02_dl_xml/target/classes/com/baowj/test02/School.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02_dl_xml/target/classes/com/baowj/test02/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02_dl_xml/target/classes/com/baowj/test02/Teacher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02_dl_xml/target/classes/org/example/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02_dl_xml/target/test-classes/com/baowj/MyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch03/ch03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ch03/ch03.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch03/target/classes/com/baowj/study01/School.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch03/target/classes/com/baowj/study01/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch03/target/classes/spring-school.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch03/target/classes/spring-student.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch03/target/classes/spring-total.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch03/target/test-classes/com/baowj/study01/MyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04_di/ch04_di.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ch04_di/ch04_di.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04_di/target/classes/applicationContext_01.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04_di/target/classes/applicationContext_02.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04_di/target/classes/applicationContext_03.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04_di/target/classes/applicationContext_04.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04_di/target/classes/applicationContext_05.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04_di/target/classes/applicationContext_06.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04_di/target/classes/com/baowj/study01/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04_di/target/classes/com/baowj/study02/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04_di/target/classes/com/baowj/study03/School.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04_di/target/classes/com/baowj/study03/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04_di/target/classes/com/baowj/study04/School.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04_di/target/classes/com/baowj/study04/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04_di/target/classes/com/baowj/study05/School.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04_di/target/classes/com/baowj/study05/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04_di/target/classes/com/baowj/study06/School.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04_di/target/classes/com/baowj/study06/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04_di/target/classes/org/example/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04_di/target/test-classes/com/baowj/MyTest01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04_di/target/test-classes/com/baowj/MyTest02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04_di/target/test-classes/com/baowj/MyTest03.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04_di/target/test-classes/com/baowj/MyTest04.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04_di/target/test-classes/com/baowj/MyTest05.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04_di/target/test-classes/com/baowj/MyTest06.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06_aop_aspectj/ch06_aop_aspectj.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ch06_aop_aspectj/ch06_aop_aspectj.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06_aop_aspectj/target/classes/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06_aop_aspectj/target/classes/com/baowj/study01/MyAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06_aop_aspectj/target/classes/com/baowj/study01/SomeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06_aop_aspectj/target/classes/com/baowj/study01/SomeServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06_aop_aspectj/target/classes/com/baowj/study02/MyAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06_aop_aspectj/target/classes/com/baowj/study02/SomeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06_aop_aspectj/target/classes/com/baowj/study02/SomeServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06_aop_aspectj/target/classes/com/baowj/study03/MyAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06_aop_aspectj/target/classes/com/baowj/study03/SomeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06_aop_aspectj/target/classes/com/baowj/study03/SomeServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06_aop_aspectj/target/classes/com/baowj/study04/MyAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06_aop_aspectj/target/classes/com/baowj/study04/SomeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06_aop_aspectj/target/classes/com/baowj/study04/SomeServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06_aop_aspectj/target/classes/com/baowj/study05/MyAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06_aop_aspectj/target/classes/com/baowj/study05/SomeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06_aop_aspectj/target/classes/com/baowj/study05/SomeServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06_aop_aspectj/target/classes/com/baowj/study06/MyAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06_aop_aspectj/target/classes/com/baowj/study06/SomeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06_aop_aspectj/target/classes/com/baowj/study06/SomeServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06_aop_aspectj/target/test-classes/com/baowj/MyTest01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06_aop_aspectj/target/test-classes/com/baowj/MyTest02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06_aop_aspectj/target/test-classes/com/baowj/MyTest03.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06_aop_aspectj/target/test-classes/com/baowj/MyTest04.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06_aop_aspectj/target/test-classes/com/baowj/MyTest05.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06_aop_aspectj/target/test-classes/com/baowj/MyTest06.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch07_spring_mybatis/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ch07_spring_mybatis/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch07_spring_mybatis/ch07_spring_mybatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ch07_spring_mybatis/ch07_spring_mybatis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch07_spring_mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch07_spring_mybatis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch07_spring_mybatis/src/main/java/com/bwj/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch07_spring_mybatis/src/main/java/com/baowj/dao/StudentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch07_spring_mybatis/src/main/java/com/bwj/dao/StudentDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch07_spring_mybatis/src/main/java/com/baowj/dao/StudentDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch07_spring_mybatis/src/main/java/com/bwj/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch07_spring_mybatis/src/main/java/com/baowj/entity/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch07_spring_mybatis/src/main/java/com/bwj/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch07_spring_mybatis/src/main/java/com/baowj/service/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch07_spring_mybatis/src/main/java/com/bwj/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch07_spring_mybatis/src/main/java/com/baowj/service/impl/StudentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch07_spring_mybatis/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch07_spring_mybatis/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch07_spring_mybatis/src/main/resources/mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch07_spring_mybatis/src/main/resources/mybatis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch07_spring_mybatis/src/test/java/com/bwj/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch07_spring_mybatis/src/test/java/com/baowj/MyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch07_spring_mybatis/target/classes/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch07_spring_mybatis/target/classes/com/bwj/dao/StudentDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch07_spring_mybatis/target/classes/com/bwj/entity/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch07_spring_mybatis/target/classes/com/bwj/service/StudentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch07_spring_mybatis/target/classes/com/bwj/service/impl/StudentServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch07_spring_mybatis/target/classes/mybatis.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch07_spring_mybatis/target/test-classes/com/bwj/MyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ch05_aop_leandin/com/baowj/MyApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ch05_aop_leandin/com/baowj/handler/MyIncationHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ch05_aop_leandin/com/baowj/service/SomeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ch05_aop_leandin/com/baowj/service/impl/SomeServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ch05_aop_leandin/com/baowj/util/ServiceTools.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +65,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ch10-spring-web/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../我的课件/软件测试/实践作业2/Othello" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -260,19 +100,6 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.baowj.MyApp" />
       <module name="ch05_aop_leandin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -527,9 +354,9 @@
       <item itemvalue="JUnit.MyTest.testAddService" />
       <item itemvalue="JUnit.MyTest.test01" />
       <item itemvalue="JUnit.MyTest.test01 (1)" />
+      <item itemvalue="JUnit.MyTest.testService" />
       <item itemvalue="Maven.ch02_dl_xml []" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.42" />
-      <item itemvalue="JUnit.MyTest.testService" />
     </list>
     <recent_temporary>
       <list>
@@ -554,7 +381,8 @@
       <workItem from="1611472759479" duration="244000" />
       <workItem from="1611473014587" duration="10739000" />
       <workItem from="1611495792487" duration="1986000" />
-      <workItem from="1611559289678" duration="9682000" />
+      <workItem from="1611559289678" duration="10039000" />
+      <workItem from="1618127829778" duration="20000" />
     </task>
     <task id="LOCAL-00001" summary="spring">
       <created>1600182571548</created>
@@ -640,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606661415804</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="finish spring 🧐">
+      <created>1611569435718</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1611569435718</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -662,7 +497,8 @@
     <MESSAGE value="spring" />
     <MESSAGE value="AOP" />
     <MESSAGE value="mybatis" />
-    <option name="LAST_COMMIT_MESSAGE" value="mybatis" />
+    <MESSAGE value="finish spring " />
+    <option name="LAST_COMMIT_MESSAGE" value="finish spring " />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
