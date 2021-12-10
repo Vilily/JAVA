@@ -64,7 +64,7 @@
 
     ~~~xml
     jdbc.driver=com.mysql.cj.jdbc.Drive
-    jdbc.url=jdbc:mysql://localhost:3306/springdb?serverTimezone=UTC
+    jdbc.url=jdbc:mysql://localhost:3306/springdb?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=true
     jdbc.user=root
     jdbc.password=bwj678
     ~~~
@@ -89,5 +89,21 @@
     </environments>
     ~~~
 
-    
+
+## 别名
+
+类型别名可为 Java 类型设置一个缩写名字。它仅用于 **XML** 配置，意在降低冗余的全限定类名书写。例如：
+
+~~~xml
+<typeAliases>
+  <typeAlias alias="Author" type="domain.blog.Author"/>
+  <typeAlias alias="Blog" type="domain.blog.Blog"/>
+  <typeAlias alias="Comment" type="domain.blog.Comment"/>
+  <typeAlias alias="Post" type="domain.blog.Post"/>
+  <typeAlias alias="Section" type="domain.blog.Section"/>
+  <typeAlias alias="Tag" type="domain.blog.Tag"/>
+</typeAliases>
+~~~
+
+
 

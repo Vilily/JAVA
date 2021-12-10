@@ -9,7 +9,13 @@
         <option value="$PROJECT_DIR$/ch04-param/pom.xml" />
         <option value="$PROJECT_DIR$/ch05-result/pom.xml" />
         <option value="$PROJECT_DIR$/ch06-dynamic-sql/pom.xml" />
+        <option value="$PROJECT_DIR$/ch07-annotation/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/ch01-hello-mybatis/ch07-annotation/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="1.8" project-jdk-type="JavaSDK">

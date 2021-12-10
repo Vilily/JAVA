@@ -1,5 +1,9 @@
 # MyBatis 传参:package:
 
+### #{}和${}
+
+**#{}**能够防止**SQL注入**
+
 ### parameterType:pager:
 
 1. **dao接口**中方法参数的数据类型；

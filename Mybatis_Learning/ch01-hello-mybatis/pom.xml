@@ -6,9 +6,9 @@
 
   <groupId>com.baowj</groupId>
   <artifactId>ch01-hello-mybatis</artifactId>
-  <version>1.0-SNAPSHOT</version>
-
-  <name>ch01-hello-mybatis</name>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>ch01-hello-mybatis</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
