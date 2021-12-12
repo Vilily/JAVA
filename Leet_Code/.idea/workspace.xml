@@ -7,73 +7,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95b72c0d-089b-450a-8a69-d28b6170658a" name="Default Changelist" comment="2021/12/10">
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JUC/src/main/java/com/baowj/CASDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JUC/src/main/java/com/baowj/JMMDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JUC/src/main/java/com/baowj/JUCCountDownLatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JUC/src/main/java/com/baowj/JUCReadWriteLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JUC/src/main/java/com/baowj/TestBlockQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JUC/src/main/java/com/baowj/TestForkJoin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JUC/src/main/java/com/baowj/TestSynchronousQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JUC/src/main/java/com/baowj/TestThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JUC/src/main/java/com/baowj/ThreadCallable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JUC/src/main/java/com/baowj/ThreadCyclicBarrier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JUC/src/main/java/com/baowj/ThreadSemaphore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JavaHighLevel/src/main/java/com/baowj/annotation/MyAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JavaHighLevel/src/main/java/com/baowj/collection/ColletionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JavaHighLevel/src/main/java/com/baowj/commonclass/JavaCollections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JavaHighLevel/src/main/java/com/baowj/commonclass/JavaProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JavaHighLevel/src/main/java/com/baowj/commonclass/TestList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JavaHighLevel/src/main/java/com/baowj/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JavaHighLevel/src/main/java/com/baowj/file/BufferedDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JavaHighLevel/src/main/java/com/baowj/file/FileDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JavaHighLevel/src/main/java/com/baowj/file/FileInputStreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JavaHighLevel/src/main/java/com/baowj/file/FileReaderDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JavaHighLevel/src/main/java/com/baowj/jdbc/JDBCDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JavaHighLevel/src/main/java/com/baowj/jdbc/JDBCPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JavaHighLevel/src/main/java/com/baowj/jdbc/JDBCTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JavaHighLevel/src/main/java/com/baowj/jdbc/JDBCUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JavaHighLevel/src/main/java/com/baowj/network/NetworlDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JavaHighLevel/src/main/java/com/baowj/network/TCPClientDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JavaHighLevel/src/main/java/com/baowj/network/TCPDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JavaHighLevel/src/main/java/com/baowj/network/TCPServerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JavaHighLevel/src/main/java/com/baowj/network/UDPClientDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JavaHighLevel/src/main/java/com/baowj/network/UDPServerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JavaHighLevel/src/main/java/com/baowj/network/URLDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JavaHighLevel/src/main/java/com/baowj/reflection/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JavaHighLevel/src/main/java/com/baowj/reflection/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JavaHighLevel/src/main/java/com/baowj/reflection/ReflectionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JavaHighLevel/src/main/java/com/baowj/reflection/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JavaHighLevel/src/main/java/com/baowj/stream/StreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/JavaHighLevel/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_Learning/test.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/689. 三个无重叠子数组的最大和.java" afterDir="false" />
+    <list default="true" id="95b72c0d-089b-450a-8a69-d28b6170658a" name="Default Changelist" comment="2021/12/12">
       <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mybatis_Learning/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mybatis_Learning/ch07-annotation/ch07-annotation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mybatis_Learning/ch07-annotation/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mybatis_Learning/ch07-annotation/src/main/java/com/baowj/dao/StudentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mybatis_Learning/ch07-annotation/src/main/java/com/baowj/domain/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mybatis_Learning/ch07-annotation/src/main/java/com/baowj/uils/MyBatisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mybatis_Learning/ch07-annotation/src/main/resources/mybatis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mybatis_Learning/ch07-annotation/src/test/java/com/baowj/dao/StudentMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java_Learning/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_Learning/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java_Learning/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java_Learning/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java_Learning/JavaHighLevel/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_Learning/JavaHighLevel/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java_Learning/JavaHighLevel/src/main/java/com/baowj/commonclass/JDK8Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_Learning/JavaHighLevel/src/main/java/com/baowj/commonclass/JDK8Time.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mybatis_Learning/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis_Learning/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mybatis_Learning/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis_Learning/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mybatis_Learning/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis_Learning/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mybatis_Learning/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis_Learning/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mybatis_Learning/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis_Learning/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mybatis_Learning/MyBatis-Config.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis_Learning/MyBatis-Config.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mybatis_Learning/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis_Learning/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mybatis_Learning/ch01-hello-mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis_Learning/ch01-hello-mybatis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mybatis_Learning/ch04-param/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis_Learning/ch04-param/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mybatis_Learning/ch05-result/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis_Learning/ch05-result/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mybatis_Learning/ch01-hello-mybatis/ch01-hello-mybatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis_Learning/ch01-hello-mybatis/ch01-hello-mybatis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mybatis_Learning/ch02-mybatis-dao/ch02-mybatis-dao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis_Learning/ch02-mybatis-dao/ch02-mybatis-dao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mybatis_Learning/ch03-proxy-dao/ch03-proxy-dao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis_Learning/ch03-proxy-dao/ch03-proxy-dao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mybatis_Learning/ch04-param/ch04-param.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis_Learning/ch04-param/ch04-param.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mybatis_Learning/ch05-result/ch05-result.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis_Learning/ch05-result/ch05-result.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mybatis_Learning/ch06-dynamic-sql/ch06-dynamic-sql.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis_Learning/ch06-dynamic-sql/ch06-dynamic-sql.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mybatis_Learning/ch07-annotation/ch07-annotation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis_Learning/ch07-annotation/ch07-annotation.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,6 +130,7 @@
       <workItem from="1638928860039" duration="3962000" />
       <workItem from="1639013873123" duration="2604000" />
       <workItem from="1639103036397" duration="1119000" />
+      <workItem from="1639274673456" duration="1869000" />
     </task>
     <task id="LOCAL-00001" summary="2021/11/13">
       <created>1636771387018</created>
@@ -230,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639104052829</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2021/12/12">
+      <created>1639276217827</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1639276217827</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +205,7 @@
     <MESSAGE value="2021/11/19" />
     <MESSAGE value="2021/11/20" />
     <MESSAGE value="2021/12/10" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021/12/10" />
+    <MESSAGE value="2021/12/12" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021/12/12" />
   </component>
 </project>
