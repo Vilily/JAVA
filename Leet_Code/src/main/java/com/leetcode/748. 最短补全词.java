@@ -7,7 +7,7 @@ package com.leetcode;
 
 import java.util.Arrays;
 
-class Solution {
+class Solution748 {
     public String shortestCompletingWord(String licensePlate, String[] words) {
         int[] plate = new int[26];
         int[] tmp = new int[26];
